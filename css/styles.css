@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Arvo:700");
+@import url("https://fonts.googleapis.com/css?family=Seaweed+Script");
+@import url(https://fonts.googleapis.com/css?family=Rubik+One&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+    /*background-image: url("https://images.unsplash.com/photo-1561835503-648c2f1169d2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");*/
+  
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images.unsplash.com/photo-1608318473515-ac65ff4ab10d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+
+
+header {  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+}
+
+header .logo {
+    font-size: large;
+    color: #c8bac1;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #f9bc60;
+    border-radius: 20px;
+}
+
+header ul li a:hover,
+header ul li a.active {
+    background: #f9bc60;
+    color: #001e1d;
+}
+
+
+
+
+header ul li.dropdown {
+  position: relative;
+}
+
+header .dropdown-content {
+  display: none;
+  position: absolute;
+  /* background-color: #f9f9f9; */
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 14px;
+  border-width: 2px;
+
+}
+
+#header-Overfit{
+  background-color: #f9f9f9;
+  margin: 10px;
+
+}
+
+#header-Wear{
+  margin: 10px;
+  background-color: #f9f9f9;
+}
+
+#header-accessories{
+  margin: 10px;
+  background-color: #ffffff;
+}
+
+header .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+
+}
+
+header .dropdown-content a:hover {
+  background-color: #f1f1f1;
+  
+}
+
+header ul li.dropdown:hover .dropdown-content {
+  display: block;
+  
+}
+
+
+
+
+
+
+
+
+/*swipe-начало*/
+section {
+    margin-top: -434px;
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+
+section::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200px;
+
+    background: linear-gradient(to top, #004643, transparent);
+    z-index: 1000;
+}
+
+#btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #f9bc60 ;
+    color: #0f5a56;
+    font-size: 1.5em;
+    z-index: 9;
+    transform: translateY(100px);
+}
+
+.sec {
+    position: relative;
+    padding: 100px;
+    padding-bottom: 130px;
+    background: #004643;
+}
+
+.sec h2 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    color: #001e1d;
+}
+
+.sec p {
+    font-size: 1em;
+    color: #001e1d;
+}
+/*swipe-конец*/
+
+
+
+
+/*Logo-начало*/
+.plate {
+    width: 410px;
+    margin: 10% auto;
+    margin-bottom: 300px;
+  }
+  .shadow {
+    color: #e8e4e6;
+    font-family: Arvo;
+    font-weight: bold;
+    text-shadow:
+      -3px -3px 0 rgb(213, 189, 55),
+      3px -3px 0 rgb(213, 189, 55),
+      -3px 3px 0 rgb(213, 189, 55),
+      3px 3px 0 rgb(213, 189, 55),
+      4px 4px 0 #e8e4e6,
+      5px 5px 0 #e8e4e6,
+      6px 6px 0 #e8e4e6,
+      7px 7px 0 #e8e4e6;
+    line-height: 0.8em;
+    letter-spacing: 0.1em;
+    transform: scaleY(0.7);
+    -webkit-transform: scaleY(0.7);
+    -moz-transform: scaleY(0.7);
+    margin:0;
+    text-align: center;
+  }
+  .minishadow {
+    color: #fff;
+    font-family: Arvo;
+    font-weight: bold;
+    
+    text-shadow:
+      -3px -3px 0 #001e1d,
+      3px -3px 0 #001e1d,
+      -3px 3px 0 #001e1d,
+      3px 3px 0 #001e1d,
+      4px 4px 0 #e8e4e6,
+      4px 4px 0 #e8e4e6,
+      3px 3px 0 #e8e4e6,
+      5px 5px 0 #e8e4e6;
+    line-height: 0.8em;
+    letter-spacing: 0.1em;
+    transform: scaleY(0.7);
+    -webkit-transform: scaleY(0.7);
+    -moz-transform: scaleY(0.7);
+    margin:0;
+    text-align: center;
+  }
+  .script {
+    font-family: "Seaweed Script";
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    margin:0;
+  }
+  .script span {
+    background-color: #004643;
+    padding: 0 0.3em;
+  }
+  .script:before {
+    content:"";
+    display: block;
+    position: absolute;
+    z-index:-1;
+    top: 50%;
+    width: 100%;
+    border-bottom: 3px solid #fff;
+  }
+  .text2 {
+    font-size: 60px;
+  }
+  .text1 {
+    font-size: 100px;
+  }
+  .text3 {
+    font-size: 17.5px;
+  }
+/*Logo-конец*/
+
+/* кнопка на верх */
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 180px;
+  right: 100px; 
+  background-color: #f9bc60;
+  color: #001e1d;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+/* кнопка на верх */
+
+/*Bottom bar-начало*/
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /*----00*/
+ .container{
+  margin-top: 4%;
+}
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+  /* кнопка вниз возле свайпа */
+  .arrow-7 {
+    margin: 40px auto 10px auto;
+    width: 38px;
+    height: 100px;
+}
+.arrow-7 span {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #001e1d;
+    border-right: 5px solid #001e1d;
+    transform: rotate(45deg);
+    margin: -16px 0;
+    animation: arrow-7 2s infinite;
+}
+.arrow-7 span:nth-child(2){
+    animation-delay: -0.2s;
+}
+.arrow-7 span:nth-child(3){
+    animation-delay: -0.4s;
+}
+@keyframes arrow-7 {
+    0%{
+        opacity: 0;
+        transform: translate(0,-20px) rotate(45deg);
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+        transform: translate(0,20px) rotate(45deg);
+    }
+}
+  /* кнопка вниз возле свайпа */
+
+/* кнопка вверх возле свайпа */
+.barrow-7 {
+  margin: 40px auto 10px auto;
+  /* width: 8px;*/
+  height: 10px; 
+  text-align: center;
+}
+.barrow-7 span {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-top: 5px solid #001e1d; /* Заменено с border-bottom на border-top */
+  border-left: 5px solid #001e1d; /* Заменено с border-right на border-left */
+  transform: rotate(-45deg); /* Изменено значение для поворота вверх */
+  margin: -16px 0;
+  animation: arrow-7 2s infinite;
+}
+.barrow-7 span:nth-child(2){
+  animation-delay: -0.2s;
+}
+.barrow-7 span:nth-child(3){
+  animation-delay: -0.4s;
+}
+@keyframes arrow-7 {
+  0%{
+      opacity: 0;
+      transform: translate(0,-10px) rotate(45deg);
+  }
+  50%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+      transform: translate(0,10px) rotate(45deg);
+  }
+}
+/* кнопка вверх возле свайпа */
+
+
+
+
+
+
+
+ footer {
+  background-color: rgb(0, 0, 0);
+      background: linear-gradient(to bottom, #004643, transparent);
+
+  width: 100%;
+  height: 200px;
+  color: #e8e4e6;
+  padding-bottom: 0px;
+}
+.gradient-text{
+background: linear-gradient(45deg, #FFFF00 33%, #FF1493 66%, #8B008B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+color: #9400D3;
+}
+
+.contact{
+  padding-left: 200px;
+  padding-right: 200px;
+
+  color: #fff;
+}
+
+.backbtn{
+margin-left: 10%;
+margin-right: 10% ;
+margin-top: 10%;
+margin-bottom: 2%;
+}
+
+
+.d-flex {
+  display: flex;
+}
+
+
+#animatedBox {
+  margin-left: auto;
+  margin-right: auto;  
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.imagec{ 
+  max-height: 500px; 
+  width: 900px; 
+  border-radius: 30px; 
+}
+
+.good{ 
+    display: inline-block; 
+    height: 400px; 
+}
+
+
+.custom-card {
+  width: 80%;
+  height: 100%; /* Вы можете указать фиксированную высоту или использовать другие единицы измерения, такие как vh (viewport height) */
+  background-color: #abd1c6;
+}
+
+.custom-card2 {
+  width: 80%;
+  height: 100%; /* Вы можете указать фиксированную высоту или использовать другие единицы измерения, такие как vh (viewport height) */
+  background-color: #abd1c6;
+  
+}
+
+.custom-card img {
+  width: 100%;
+  height: 60%; /* Задайте высоту для изображения */
+  object-fit: cover; /* Сохраняет пропорции изображения и обрезает его по необходимости */
+}
+
+
+.custom-card .card-body {
+  height: 10%; /* Задайте высоту для блока с описанием */
+}
+
+
+
+ 
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
