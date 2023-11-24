@@ -1,0 +1,466 @@
+@media screen and (max-width: 1226px) {
+    header ul {
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    header ul li {
+        margin: 5px;
+    }
+
+    /* Добавлено для адаптации */
+    header .logo {
+        font-size: 1em;
+    }
+
+    /* Добавлено для адаптации */
+    header .dropdown-content {
+        width: 100%;
+    }
+
+    /* Добавлено для адаптации */
+    #btn {
+        margin-top: 10px;
+    }
+
+    /* Добавлено для адаптации */
+    .sec {
+        padding: 20px;
+    }
+
+    /* Добавлено для адаптации */
+    .sec h2 {
+        font-size: 1.5em;
+    }
+
+    /* Добавлено для адаптации */
+    .sec p {
+        font-size: 0.9em;
+    }
+
+    /* Добавлено для адаптации */
+    #scrollToTopBtn {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .plate {
+        width: 300px;
+        margin: 10% auto;
+        margin-bottom: 300px;
+      }
+      .shadow {
+
+        color: #e8e4e6;
+        font-family: Arvo;
+        font-weight: bold;
+        text-shadow:
+          -3px -3px 0 rgb(213, 189, 55),
+          3px -3px 0 rgb(213, 189, 55),
+          -3px 3px 0 rgb(213, 189, 55),
+          3px 3px 0 rgb(213, 189, 55),
+          4px 4px 0 #e8e4e6,
+          5px 5px 0 #e8e4e6,
+          6px 6px 0 #e8e4e6,
+          7px 7px 0 #e8e4e6;
+        line-height: 0.8em;
+        letter-spacing: 0.1em;
+        transform: scaleY(0.7);
+        -webkit-transform: scaleY(0.7);
+        -moz-transform: scaleY(0.7);
+        margin:0;
+        text-align: center;
+      }
+      .minishadow {
+        color: #fff;
+        font-family: Arvo;
+        font-weight: bold;
+        
+        text-shadow:
+          -3px -3px 0 #001e1d,
+          3px -3px 0 #001e1d,
+          -3px 3px 0 #001e1d,
+          3px 3px 0 #001e1d,
+          4px 4px 0 #e8e4e6,
+          4px 4px 0 #e8e4e6,
+          3px 3px 0 #e8e4e6,
+          5px 5px 0 #e8e4e6;
+        line-height: 0.8em;
+        letter-spacing: 0.1em;
+        transform: scaleY(0.7);
+        -webkit-transform: scaleY(0.7);
+        -moz-transform: scaleY(0.7);
+        margin:0;
+        text-align: center;
+      }
+      .script {
+        font-family: "Seaweed Script";
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        position: relative;
+        margin:0;
+      }
+      .script span {
+        background-color: #004643;
+        padding: 0 0.3em;
+        font-size: 10px;
+      }
+      .script:before {
+        content:"";
+        display: block;
+        position: absolute;
+        z-index:-1;
+        top: 50%;
+        width: 100%;
+        border-bottom: 3px solid #fff;
+      }
+      .text2 {
+        font-size: 30px;
+      }
+      .text1 {
+        font-size: 30px;
+      }
+      .text3 {
+        font-size: 17.5px;
+      }
+    /*Logo-конец*/
+
+    footer {
+        background-color: rgb(0, 0, 0);
+            background: linear-gradient(to bottom, #004643, transparent);
+      
+        width: 100%;
+        height: 200px;
+        color: #e8e4e6;
+        padding-bottom: 0px;
+      }
+      .gradient-text{
+      background: linear-gradient(45deg, #FFFF00 33%, #FF1493 66%, #8B008B);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      color: #9400D3;
+      }
+      .sponsors{
+        width:500px;
+      }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1033px) {
+    header ul {
+        align-items: center;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    header ul li {
+        margin: 5px;
+    }
+
+    /* Добавлено для адаптации */
+    header .logo {
+        font-size: 1em;
+    }
+
+    /* Добавлено для адаптации */
+    header .dropdown-content {
+        width: 100%;
+    }
+
+    /* Добавлено для адаптации */
+    #btn {
+        margin-top: 10px;
+    }
+
+    /* Добавлено для адаптации */
+    .sec {
+        padding: 20px;
+    }
+
+    /* Добавлено для адаптации */
+    .sec h2 {
+        font-size: 1.5em;
+    }
+
+    /* Добавлено для адаптации */
+    .sec p {
+        font-size: 0.9em;
+    }
+
+    /* Добавлено для адаптации */
+    #scrollToTopBtn {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .plate {
+        width: 150px    ;
+        margin: 10% auto;
+        margin-bottom: 300px;
+      }
+      .shadow {
+
+        color: #e8e4e6;
+        font-family: Arvo;
+        font-weight: bold;
+        text-shadow:
+          -3px -3px 0 rgb(213, 189, 55),
+          3px -3px 0 rgb(213, 189, 55),
+          -3px 3px 0 rgb(213, 189, 55),
+          3px 3px 0 rgb(213, 189, 55),
+          4px 4px 0 #e8e4e6,
+          5px 5px 0 #e8e4e6,
+          6px 6px 0 #e8e4e6,
+          7px 7px 0 #e8e4e6;
+        line-height: 0.8em;
+        letter-spacing: 0.1em;
+        transform: scaleY(0.7);
+        -webkit-transform: scaleY(0.7);
+        -moz-transform: scaleY(0.7);
+        margin:0;
+        text-align: center;
+      }
+      .minishadow {
+        color: #fff;
+        font-family: Arvo;
+        font-weight: bold;
+        
+        text-shadow:
+          -3px -3px 0 #001e1d,
+          3px -3px 0 #001e1d,
+          -3px 3px 0 #001e1d,
+          3px 3px 0 #001e1d,
+          4px 4px 0 #e8e4e6,
+          4px 4px 0 #e8e4e6,
+          3px 3px 0 #e8e4e6,
+          5px 5px 0 #e8e4e6;
+        line-height: 0.8em;
+        letter-spacing: 0.1em;
+        transform: scaleY(0.7);
+        -webkit-transform: scaleY(0.7);
+        -moz-transform: scaleY(0.7);
+        margin:0;
+        text-align: center;
+      }
+      .script {
+        font-family: "Seaweed Script";
+        color: #fff;
+        text-align: center;
+        font-size: 15px;
+        position: relative;
+        margin:0;
+      }
+      .script span {
+        background-color: #004643;
+        padding: 0 0.3em;
+        font-size: 8px;
+      }
+      .script:before {
+        content:"";
+        display: block;
+        position: absolute;
+        z-index:-1;
+        top: 50%;
+        width: 100%;
+        border-bottom: 3px solid #fff;
+      }
+      .text2 {
+        font-size: 20px;
+      }
+      .text1 {
+        font-size: 20px;
+      }
+      .text3 {
+        font-size: 10.5px;
+      }
+    /*Logo-конец*/
+
+    footer {
+        background-color: rgb(0, 0, 0);
+            background: linear-gradient(to bottom, #004643, transparent);
+      
+        width: 100%;
+        height: 100px;
+        color: #e8e4e6;
+        padding-bottom: 0px;
+      }
+      .gradient-text{
+      background: linear-gradient(45deg, #FFFF00 33%, #FF1493 66%, #8B008B);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      color: #9400D3;
+      }
+      .mmi{
+        width: 15%;
+
+      }
+      .sponsors{
+        width: 25%;
+      }
+}
+
+@media screen and (max-width: 684px) {
+    header ul {
+        align-items: center;
+        text-align: center;
+        font-size: 7px;
+    }
+
+    header ul li {
+        margin: 5px;
+    }
+
+    /* Добавлено для адаптации */
+    header .logo {
+        font-size: 1em;
+    }
+
+    /* Добавлено для адаптации */
+    header .dropdown-content {
+        width: 100%;
+    }
+
+    /* Добавлено для адаптации */
+    #btn {
+        margin-top: 10px;
+    }
+
+    /* Добавлено для адаптации */
+    .sec {
+        padding: 20px;
+    }
+
+    /* Добавлено для адаптации */
+    .sec h2 {
+        font-size: 1.5em;
+    }
+
+    /* Добавлено для адаптации */
+    .sec p {
+        font-size: 0.9em;
+    }
+
+    /* Добавлено для адаптации */
+    #scrollToTopBtn {
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .plate {
+        width: 150px    ;
+        margin: 10% auto;
+        margin-bottom: 300px;
+      }
+      .shadow {
+
+        color: #e8e4e6;
+        font-family: Arvo;
+        font-weight: bold;
+        text-shadow:
+          -3px -3px 0 rgb(213, 189, 55),
+          3px -3px 0 rgb(213, 189, 55),
+          -3px 3px 0 rgb(213, 189, 55),
+          3px 3px 0 rgb(213, 189, 55),
+          4px 4px 0 #e8e4e6,
+          5px 5px 0 #e8e4e6,
+          6px 6px 0 #e8e4e6,
+          7px 7px 0 #e8e4e6;
+        line-height: 0.8em;
+        letter-spacing: 0.1em;
+        transform: scaleY(0.7);
+        -webkit-transform: scaleY(0.7);
+        -moz-transform: scaleY(0.7);
+        margin:0;
+        text-align: center;
+      }
+      .minishadow {
+        color: #fff;
+        font-family: Arvo;
+        font-weight: bold;
+        
+        text-shadow:
+          -3px -3px 0 #001e1d,
+          3px -3px 0 #001e1d,
+          -3px 3px 0 #001e1d,
+          3px 3px 0 #001e1d,
+          4px 4px 0 #e8e4e6,
+          4px 4px 0 #e8e4e6,
+          3px 3px 0 #e8e4e6,
+          5px 5px 0 #e8e4e6;
+        line-height: 0.8em;
+        letter-spacing: 0.1em;
+        transform: scaleY(0.7);
+        -webkit-transform: scaleY(0.7);
+        -moz-transform: scaleY(0.7);
+        margin:0;
+        text-align: center;
+      }
+      .script {
+        font-family: "Seaweed Script";
+        color: #fff;
+        text-align: center;
+        font-size: 15px;
+        position: relative;
+        margin:0;
+      }
+      .script span {
+        background-color: #004643;
+        padding: 0 0.3em;
+        font-size: 8px;
+      }
+      .script:before {
+        content:"";
+        display: block;
+        position: absolute;
+        z-index:-1;
+        top: 50%;
+        width: 100%;
+        border-bottom: 3px solid #fff;
+      }
+      .text2 {
+        font-size: 15px;
+      }
+      .text1 {
+        font-size: 15px;
+      }
+      .text3 {
+        font-size: 5.5px;
+      }
+    /*Logo-конец*/
+
+    footer {
+        background-color: rgb(0, 0, 0);
+            background: linear-gradient(to bottom, #004643, transparent);
+      
+        width: 100%;
+        height: 100px;
+        color: #e8e4e6;
+        padding-bottom: 0px;
+      }
+      .gradient-text{
+      background: linear-gradient(45deg, #FFFF00 33%, #FF1493 66%, #8B008B);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      color: #9400D3;
+      }
+     
+      .mmi{
+        width: 15%;
+
+      }
+}
